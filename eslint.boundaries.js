@@ -59,7 +59,7 @@ export const eslintBoundariesConfig = {
           },
           {
             target: ["features"],
-            allow: "index.(ts|tsx)",
+            allow: ["index.(ts|tsx)", "*.page.tsx"],
           },
         ],
       },
